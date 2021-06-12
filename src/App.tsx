@@ -11,7 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload
         </p>
-        <Typology size="lg">AUSTAL</Typology>
+        <Typology size="lg">React App</Typology>
         <a
           className="App-link"
           href="https://reactjs.org"
