@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {  Typology } from 'components'
+import {Typology} from 'components';
 
-function App() {
+const App = (): ReactElement => {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;

@@ -12,9 +12,9 @@ enum TextElements {
 
 const Typology: React.FC<{size: string, children: ReactChild | ReactChildren}> = ({size, children, ...props}) => {
   return React.createElement(
-    TextElements[size as keyof typeof TextElements] || TextElements.rg,
-    props,
-    children,
+      TextElements[size as keyof typeof TextElements] || TextElements.rg,
+      props,
+      children,
   );
 };
 
