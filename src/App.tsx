@@ -1,6 +1,6 @@
-import React, {ReactElement} from 'react'
-import logo from 'logo.svg'
-import './App.css'
+import React, { ReactElement } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 const App = (): ReactElement => (
   <div className="App">
@@ -19,6 +19,6 @@ const App = (): ReactElement => (
       </a>
     </header>
   </div>
-)
+);
 
-export default App
+export default App;

@@ -5,5 +5,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false
 }

@@ -19,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "lint": "eslint --fix src/**/*.{ts,tsx}",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +37,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.2.0",
+    "prettier": "^2.3.1"
+  }
 }
