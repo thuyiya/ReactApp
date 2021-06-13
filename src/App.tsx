@@ -1,7 +1,6 @@
 import React, {ReactElement} from 'react'
 import logo from 'logo.svg'
 import './App.css'
-import {Typology} from 'components'
 
 const App = (): ReactElement => (
   <div className="App">
@@ -10,7 +9,6 @@ const App = (): ReactElement => (
       <p>
         Edit <code>src/App.tsx</code> and save to reload
       </p>
-      <Typology size="lg">React App</Typology>
       <a
         className="App-link"
         href="https://reactjs.org"
