@@ -1,5 +1,3 @@
-import Typology from './Typology';
+import Typology from './Typology'
 
-export {
-  Typology,
-};
+export { Typology }
